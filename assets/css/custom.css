@@ -1,3 +1,22 @@
+/* FONT GLOBAL F1 */
+body {
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.navbar-brand,
+.nav-link,
+.btn {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 body {
   background: #0f0f0f;
   color: white;
@@ -12,4 +31,46 @@ body {
 .f1-footer {
   background: #121212;
   color: #aaa;
+}
+
+/* CARD MERAH F1 */
+.f1-card {
+  background-color: #e10600; /* F1 Red */
+  border: none;
+  min-height: 220px;
+  transition: transform 0.3s ease;
+}
+
+.f1-card:hover {
+  transform: translateY(-6px);
+}
+
+/* GAMBAR OVERLAY */
+.f1-card .card-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: 1;
+}
+
+.f1-card:hover .card-bg {
+  opacity: 0.5; 
+}
+
+.f1-card .card-body {
+  z-index: 2;
+}
+
+/* VIDEO HOMEPAGE */
+.video-wrapper {
+  max-width: 800px;
+}
+
+.f1-video {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
 }

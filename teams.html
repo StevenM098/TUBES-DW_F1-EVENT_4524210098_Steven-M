@@ -2,26 +2,179 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>Teams | F1 Event</title>
+  <title>Teams | F1 Event Hub</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS (sama dengan halaman lain) -->
+  <link rel="stylesheet" href="assets/css/custom.css">
 </head>
 <body>
 
-<main class="container py-5">
-  <h1 class="mb-4">Tim & Pembalap</h1>
+<!-- NAVBAR -->
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="index.html">
+        <img src="assets/img/Logo F1.png" alt="Logo F1" width="40" height="24">
+        <span>F1 Event Hub</span>
+      </a>
 
-  <div class="row g-4">
-    <div class="col-md-4">
-      <div class="card">
-        <img src="assets/img/redbull.jpg" class="card-img-top" alt="Tim Red Bull Racing">
-        <div class="card-body">
-          <h5 class="card-title">Red Bull Racing</h5>
-        </div>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div id="nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="schedule.html">Schedule</a></li>
+          <li class="nav-item"><a class="nav-link active" href="teams.html">Teams</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- MAIN CONTENT -->
+<main class="mt-5 pt-4">
+  <section class="py-5 bg-dark text-light">
+    <div class="container">
+      <h1 class="fw-bold text-center mb-4">Tim & Pembalap</h1>
+      <p class="text-center text-secondary mb-5">
+        Profil resmi tim dan pembalap Formula 1
+      </p>
+
+      <div class="row g-4">
+
+  <!-- Red Bull -->
+  <div class="col-md-4">
+    <div class="card f1-card position-relative overflow-hidden text-white">
+      <div class="card-bg" style="background-image: url('assets/img/redbull.jpg');"></div>
+      <div class="card-body position-relative text-center">
+        <h3 class="h5 fw-bold">Red Bull Racing</h3>
+        <p class="mb-0">Max Verstappen • Sergio Pérez</p>
       </div>
     </div>
   </div>
+
+  <!-- Ferrari -->
+  <div class="col-md-4">
+    <div class="card f1-card position-relative overflow-hidden text-white">
+      <div class="card-bg" style="background-image: url('assets/img/ferrari.jpg');"></div>
+      <div class="card-body position-relative text-center">
+        <h3 class="h5 fw-bold">Scuderia Ferrari</h3>
+        <p class="mb-0">Charles Leclerc • Carlos Sainz</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mercedes -->
+  <div class="col-md-4">
+    <div class="card f1-card position-relative overflow-hidden text-white">
+      <div class="card-bg" style="background-image: url('assets/img/mercedes.jpg');"></div>
+      <div class="card-body position-relative text-center">
+        <h3 class="h5 fw-bold">Mercedes AMG</h3>
+        <p class="mb-0">Lewis Hamilton • George Russell</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- McLaren -->
+  <div class="col-md-4">
+    <div class="card f1-card position-relative overflow-hidden text-white">
+      <div class="card-bg" style="background-image: url('assets/img/mclaren.jpg');"></div>
+      <div class="card-body position-relative text-center">
+        <h3 class="h5 fw-bold">McLaren</h3>
+        <p class="mb-0">Lando Norris • Oscar Piastri</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Aston Martin -->
+  <div class="col-md-4">
+    <div class="card f1-card position-relative overflow-hidden text-white">
+      <div class="card-bg" style="background-image: url('assets/img/astonmartin.jpg');"></div>
+      <div class="card-body position-relative text-center">
+        <h3 class="h5 fw-bold">Aston Martin</h3>
+        <p class="mb-0">Fernando Alonso • Lance Stroll</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Alpine -->
+  <div class="col-md-4">
+    <div class="card f1-card position-relative overflow-hidden text-white">
+      <div class="card-bg" style="background-image: url('assets/img/alpine.jpg');"></div>
+      <div class="card-body position-relative text-center">
+        <h3 class="h5 fw-bold">Alpine</h3>
+        <p class="mb-0">Esteban Ocon • Pierre Gasly</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Williams -->
+  <div class="col-md-4">
+    <div class="card f1-card position-relative overflow-hidden text-white">
+      <div class="card-bg" style="background-image: url('assets/img/williams.jpg');"></div>
+      <div class="card-body position-relative text-center">
+        <h3 class="h5 fw-bold">Williams</h3>
+        <p class="mb-0">Alex Albon • Logan Sargeant</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Haas -->
+  <div class="col-md-4">
+    <div class="card f1-card position-relative overflow-hidden text-white">
+      <div class="card-bg" style="background-image: url('assets/img/haas.jpg');"></div>
+      <div class="card-body position-relative text-center">
+        <h3 class="h5 fw-bold">Haas F1 Team</h3>
+        <p class="mb-0">Kevin Magnussen • Nico Hülkenberg</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- AlphaTauri / RB -->
+  <div class="col-md-4">
+    <div class="card f1-card position-relative overflow-hidden text-white">
+      <div class="card-bg" style="background-image: url('assets/img/rb.jpg');"></div>
+      <div class="card-body position-relative text-center">
+        <h3 class="h5 fw-bold">RB Formula One Team</h3>
+        <p class="mb-0">Yuki Tsunoda • Daniel Ricciardo</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sauber -->
+  <div class="col-md-4">
+    <div class="card f1-card position-relative overflow-hidden text-white">
+      <div class="card-bg" style="background-image: url('assets/img/sauber.jpg');"></div>
+      <div class="card-body position-relative text-center">
+        <h3 class="h5 fw-bold">Stake F1 / Sauber</h3>
+        <p class="mb-0">Valtteri Bottas • Zhou Guanyu</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+    </div>
+  </section>
 </main>
 
+<!-- FOOTER -->
+<footer class="bg-dark text-light text-center py-3">
+  <small>© 2026 F1 Event Hub | Steven M</small>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

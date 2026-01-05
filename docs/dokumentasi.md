@@ -75,20 +75,20 @@ f1-event-website/
 ## 💻 Responsivitas
 Website diuji pada mobile, tablet, dan desktop.
 
-![mobile](assets\img\ss_mobile.jpg)
+![mobile]([assets\img\ss_mobile.jpg](https://github.com/StevenM098/TUBES-DW_F1-EVENT_4524210098_Steven-M/blob/main/assets/img/ss_mobile.jpg))
 
 
-![tablet](assets\img\ss_tablet.jpg)
+![tablet]([assets\img\ss_tablet.jpg](https://github.com/StevenM098/TUBES-DW_F1-EVENT_4524210098_Steven-M/blob/main/assets/img/ss_tablet.jpg))
 
 
-![desktop](assets\img\ss_desktop.jpg)
+![desktop]([assets\img\ss_desktop.jpg](https://github.com/StevenM098/TUBES-DW_F1-EVENT_4524210098_Steven-M/blob/main/assets/img/ss_desktop.jpg))
 
 
 ---
 
 ## 👩‍💻 Aksesibilitas
 
-![mobile](assets\img\LHaudit_mobile.jpg)
+![mobile]([assets\img\LHaudit_mobile.jpg](https://github.com/StevenM098/TUBES-DW_F1-EVENT_4524210098_Steven-M/blob/main/assets/img/LHaudit_mobile.jpg))
 
 
-![mobile](assets\img\LHaudit_desktop.jpg)
+![mobile]([assets\img\LHaudit_desktop.jpg](https://github.com/StevenM098/TUBES-DW_F1-EVENT_4524210098_Steven-M/blob/main/assets/img/LHaudit_desktop.jpg))
